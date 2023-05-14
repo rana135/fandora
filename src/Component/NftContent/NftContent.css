@@ -1,0 +1,28 @@
+.nft-title{
+    font-family: 'Montserrat';
+}
+
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+    .nftCenter{
+        text-align: center;
+    }
+    .hero-content{
+        flex-direction: column-reverse;
+    }
+    .nft-title{
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .nftCenter{
+        text-align: center;
+    }
+    .hero-content{
+        flex-direction: column-reverse;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 1020px) {
+    .nftCenter{
+        text-align: center;
+    }
+}

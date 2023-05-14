@@ -1,0 +1,63 @@
+.header-container{
+    background-image: url('../../Asset/banner/Hero\ Image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navLogo {
+    width: 203px;
+    height: 90px;
+    padding: 5% 0%;
+}
+.navLink {
+    justify-content: start;
+    margin-left: 5%;
+    white-space: nowrap;
+}
+
+@media only screen and (max-width: 600px) {
+    .flexContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .navbar {
+        justify-content: space-between !important;
+
+    }
+
+    .navLogo {
+        width: 100px;
+        height: 40px;
+        padding: 5% 0%;
+    }
+
+    .headerBtn {
+        height: 5px !important;
+        width: 5.8rem;
+        font-size: small;
+        margin: 0%;
+        padding: 0%;
+        background-color: #133e6d;
+    }
+
+    #sidebar:hover {
+        background-size: 0px 80px !important;
+    }
+}
+
+@media only screen and (min-device-width: 578px) and (max-device-width: 1024px) {
+    .navbar {
+        justify-content: space-between !important;
+    }
+
+    .headerBtn {
+        margin-left: 5px !important;
+        background-color: #133e6d;
+        font-size: medium;
+    }
+
+    #sidebar:hover {
+        background-size: 0px 80px !important;
+    }
+    
+}

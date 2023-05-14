@@ -1,0 +1,16 @@
+@media only screen and (max-width: 640px) {
+    .banner {
+        height: 424px;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 576px) {
+    .title{
+        text-align: center;
+    }
+    .hero-details{
+        visibility: hidden;
+    }
+    .nftRight{
+        display: block;
+    }
+}
